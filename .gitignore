@@ -1,0 +1,7 @@
+Gemfile.lock
+/cookbooks/
+/tmp/librarian/
+.vagrant/*
+.DS_Store
+nodes/austenito.com.json
+.chef/knife.rb
