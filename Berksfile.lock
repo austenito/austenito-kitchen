@@ -1,6 +1,7 @@
 DEPENDENCIES
   chef-docker-austenito
-    path: ../chef-docker-austenito
+    git: git@github.com:austenito/chef-docker-austenito.git
+    revision: 5bd23bc7ef1b311520a6e23ecda38ebe0ee821a9
   docker
 
 GRAPH
