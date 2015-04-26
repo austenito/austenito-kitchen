@@ -1,0 +1,10 @@
+{
+  "docker": {
+    "storage_driver": "devicemapper"
+  },
+  "run_list": [
+    "recipe[docker]",
+    "recipe[chef-docker-austenito::blog]",
+    "recipe[chef-docker-austenito::nginx]"
+  ]
+}
