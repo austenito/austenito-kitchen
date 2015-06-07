@@ -1,7 +1,7 @@
 DEPENDENCIES
   chef-docker-austenito
     git: git@github.com:austenito/chef-docker-austenito.git
-    revision: ed096c9233383218bbcf9577247aa57a68d0032f
+    revision: 17f1613dbeaff2ac21416d22e59232f6620efab1
   docker
 
 GRAPH
@@ -11,7 +11,7 @@ GRAPH
     modules (>= 0.0.0)
   build-essential (2.2.3)
   chef-docker-austenito (0.1.0)
-  chef_handler (1.1.6)
+  chef_handler (1.1.9)
   device-mapper (0.1.0)
     apt (>= 0.0.0)
     modules (>= 0.0.0)
@@ -35,7 +35,7 @@ GRAPH
     dmg (>= 0.0.0)
     windows (>= 0.0.0)
     yum-epel (>= 0.0.0)
-  golang (1.5.0)
+  golang (1.5.1)
   homebrew (1.12.0)
     build-essential (>= 2.1.2)
   iptables (1.0.0)
@@ -46,14 +46,14 @@ GRAPH
     polipo (>= 0.0.0)
   modules (0.2.0)
   ohai (2.0.1)
-  packagecloud (0.0.17)
+  packagecloud (0.0.18)
   polipo (0.1.0)
   runit (1.6.0)
     packagecloud (>= 0.0.0)
   sysctl (0.6.2)
     ohai (>= 0.0.0)
-  windows (1.36.6)
+  windows (1.37.0)
     chef_handler (>= 0.0.0)
-  yum (3.6.0)
+  yum (3.6.1)
   yum-epel (0.6.0)
     yum (~> 3.0)
